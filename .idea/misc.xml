@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/drawable/bg_button_contained_round.xml" value="0.114" />
         <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/drawable/ic_circle.xml" value="0.151" />
         <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/drawable/life_status_alive_img.xml" value="0.1355" />
         <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/drawable/life_status_dead_img.xml" value="0.1355" />
         <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/drawable/life_status_unknown_img.xml" value="0.1355" />
         <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
         <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/layout/item_heros.xml" value="0.5" />
-        <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/layout/screen_base.xml" value="0.22" />
+        <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/layout/item_paging_loading.xml" value="0.2" />
+        <entry key="..\:/MyApps/VacancyApps/RoundedInternRickAndMortyApp/app/src/main/res/layout/screen_base.xml" value="0.18" />
       </map>
     </option>
   </component>

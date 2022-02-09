@@ -6,10 +6,10 @@ data class AllCharactersResponse(
 )
 
 data class Info(
-    val next: String? = null,
+    val count: Int? = null,
     val pages: Int? = null,
-    val prev: Any? = null,
-    val count: Int? = null
+    val next: String? = null,
+    val prev: Any? = null
 )
 
 //@field:SerializedName("info")

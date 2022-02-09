@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">RickAndMorty</string>
+    <string name="app_name">Rick And Morty</string>
     <dimen name="items_radius">12dp</dimen>
 </resources>
