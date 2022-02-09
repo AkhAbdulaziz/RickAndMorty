@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    app:cardBackgroundColor="#3C3E44"
+    app:cardCornerRadius="@dimen/items_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgItem"
+            android:layout_width="wrap_content"
+            android:layout_height="144dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sample_hero"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Fat Morty"
+            android:textColor="@color/white_second"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/imgItem"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgLifeCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_marginStart="16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/life_status_alive_img"
+            app:layout_constraintBottom_toBottomOf="@id/txtLifeCondition"
+            app:layout_constraintLeft_toRightOf="@id/imgItem"
+            app:layout_constraintTop_toTopOf="@id/txtLifeCondition" />
+
+        <TextView
+            android:id="@+id/txtLifeCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Alive - Human"
+            android:textColor="@color/white_second"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/imgLifeCondition"
+            app:layout_constraintTop_toBottomOf="@id/nameItem" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Last known location:"
+            android:textColor="@color/gray"
+            android:textSize="10sp"
+            app:layout_constraintLeft_toRightOf="@id/imgItem"
+            app:layout_constraintTop_toBottomOf="@id/txtLifeCondition" />
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Citadel of Ricks"
+            android:textColor="@color/white_second"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toRightOf="@id/imgItem"
+            app:layout_constraintTop_toBottomOf="@id/title1" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="First seen in:"
+            android:textColor="@color/gray"
+            android:textSize="10sp"
+            app:layout_constraintLeft_toRightOf="@id/imgItem"
+            app:layout_constraintTop_toBottomOf="@id/txtLocation" />
+
+        <TextView
+            android:id="@+id/txtFirstSeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="The Ricklantis Mixup"
+            android:textColor="@color/white_second"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toRightOf="@id/imgItem"
+            app:layout_constraintTop_toBottomOf="@id/title2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <dimen name="items_radius">12dp</dimen>
+</resources>
